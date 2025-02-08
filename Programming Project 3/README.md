@@ -2,14 +2,23 @@ This program is meant to simulate the behavior of a computer by reading files th
 
 
 Opcode	mnemonic	meaning
+
 01	    LOAD		A <- Mem[x]
+
 02	    ADD		    A <- A + Mem[x]
+
 03	    STORE		Mem[x] <- A
+
 04	    SUB		    A <- A - Mem[x]
+
 05	    IN		    A <- read from device
+
 06	    OUT		    A -> output to device
+
 07	    END		    STOP
+
 08	    JMP		    PC <- x
+
 09	    SKIPZ		If A = 0, skip next instruction
 
 
